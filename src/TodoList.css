@@ -1,0 +1,60 @@
+.todo-list-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .todo-list-container h2 {
+    text-align: center;
+  }
+  
+  .todo-list-container form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .todo-list-container form input {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  .todo-list-container form button {
+    margin-left: 10px;
+  }
+  
+  .todo-list-container .cancel-button {
+    margin-left: 5px;
+    background-color: #ccc;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .todo-list li .button-group {
+    margin-left: auto;
+  }
+  
+  .todo-list li .edit-button {
+    margin-right: 5px;
+    background-color: #f0ad4e;
+  }
+  
+  .todo-list li .delete-button {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .sort-buttons button {
+    margin-right: 10px;
+  }
+  
